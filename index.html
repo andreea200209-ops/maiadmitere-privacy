@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Politica de Confidentialitate - MAIAdmitere</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #F0F4FF;
+            color: #0D1B4B;
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1A237E, #2979FF);
+            padding: 48px 24px 40px;
+            text-align: center;
+            color: white;
+        }
+
+        header .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 6px 16px;
+            border-radius: 100px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            letter-spacing: 0.5px;
+        }
+
+        header h1 {
+            font-size: 28px;
+            font-weight: 900;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            font-size: 15px;
+            opacity: 0.8;
+        }
+
+        .container {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 40px 24px 80px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 32px;
+            margin-bottom: 16px;
+            box-shadow: 0 2px 12px rgba(41,121,255,0.07);
+            border: 1px solid rgba(41,121,255,0.08);
+        }
+
+        h2 {
+            font-size: 17px;
+            font-weight: 800;
+            color: #1A237E;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2 .num {
+            background: linear-gradient(135deg, #1A237E, #2979FF);
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: 900;
+            flex-shrink: 0;
+        }
+
+        p {
+            font-size: 15px;
+            color: #4A5580;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            margin: 8px 0;
+        }
+
+        ul li {
+            font-size: 15px;
+            color: #4A5580;
+            padding: 5px 0 5px 20px;
+            position: relative;
+        }
+
+        ul li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #2979FF;
+            font-weight: 900;
+        }
+
+        .highlight {
+            background: #F0F4FF;
+            border-left: 3px solid #2979FF;
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin: 12px 0;
+            font-size: 14px;
+            color: #1A237E;
+            font-weight: 600;
+        }
+
+        .not-collected {
+            background: #F0FFF4;
+            border-left: 3px solid #26A69A;
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin: 12px 0;
+        }
+
+        .not-collected ul li::before { color: #26A69A; }
+        .not-collected p { color: #1B5E4A; font-weight: 600; margin-bottom: 4px; }
+
+        .rights-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 12px;
+        }
+
+        .right-item {
+            background: #F0F4FF;
+            padding: 12px;
+            border-radius: 10px;
+        }
+
+        .right-item strong {
+            font-size: 13px;
+            color: #1A237E;
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .right-item span {
+            font-size: 12px;
+            color: #4A5580;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #0D1B4B, #1A237E);
+            border-radius: 16px;
+            padding: 24px;
+            text-align: center;
+            margin-top: 8px;
+        }
+
+        .contact-box p { color: rgba(255,255,255,0.75); margin-bottom: 8px; }
+
+        .contact-box a {
+            color: #FFD700;
+            font-size: 16px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 24px;
+            font-size: 13px;
+            color: #8A98C0;
+        }
+
+        @media (max-width: 600px) {
+            .rights-grid { grid-template-columns: 1fr; }
+            header h1 { font-size: 22px; }
+            .card { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="badge">🛡️ MAIAdmitere</div>
+    <h1>Politica de Confidentialitate</h1>
+    <p>Data intrarii in vigoare: 1 Martie 2026</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2><span class="num">1</span> Introducere</h2>
+        <p>Bine ati venit la <strong>MAIAdmitere</strong>, aplicatia de pregatire pentru examenul de admitere la Scolile de Agenti de Politie ale Ministerului Afacerilor Interne din Romania.</p>
+        <p>Aceasta Politica de Confidentialitate descrie modul in care colectam, utilizam si protejam informatiile dvs. Prin utilizarea aplicatiei MAIAdmitere, acceptati practicile descrise in aceasta politica.</p>
+    </div>
+
+    <div class="card">
+        <h2><span class="num">2</span> Operatorul de Date</h2>
+        <p>Operatorul de date cu caracter personal este dezvoltatorul aplicatiei MAIAdmitere. Ne puteti contacta la:</p>
+        <ul>
+            <li>Email: <strong>andreeamuresan200209@gmail.com</strong></li>
+            <li>Aplicatia: MAIAdmitere</li>
+            <li>Platform: iOS (App Store)</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2><span class="num">3</span> Datele pe care le Colectam</h2>
+
+        <p><strong>Date furnizate de utilizator:</strong></p>
+        <ul>
+            <li>Adresa de email — pentru autentificare si comunicari</li>
+            <li>Numele si prenumele afisat — pentru personalizarea experientei</li>
+            <li>Ramura aleasa (Politie / Jandarmerie) — pentru personalizarea continutului</li>
+        </ul>
+
+        <p style="margin-top:14px"><strong>Date generate prin utilizarea aplicatiei:</strong></p>
+        <ul>
+            <li>Raspunsurile la intrebari si rezultatele simulatelor</li>
+            <li>Progresul de studiu pe materii si capitole</li>
+            <li>Statistici de utilizare (intrebari rezolvate, acuratete, streak zilnic)</li>
+            <li>Data si ora sesiunilor de studiu</li>
+        </ul>
+
+        <div class="not-collected">
+            <p>Date pe care NU le colectam:</p>
+            <ul>
+                <li>Date de localizare (GPS)</li>
+                <li>Contacte din agenda telefonica</li>
+                <li>Date biometrice sau fotografii personale</li>
+                <li>Date financiare sau de plata</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2><span class="num">4</span> Cum Utilizam Datele dvs.</h2>
+        <ul>
+            <li>Furnizarea si personalizarea serviciilor aplicatiei</li>
+            <li>Salvarea si sincronizarea progresului de studiu</li>
+            <li>Generarea statisticilor personale de performanta</li>
+            <li>Afisarea clasamentului general (cu acordul dvs.)</li>
+            <li>Imbunatatirea continutului educational si a functionalitatii</li>
+            <li>Trimiterea de notificari legate de activitate (cu acordul dvs.)</li>
+            <li>Asigurarea securitatii contului</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2><span class="num">5</span> Stocarea si Securitatea Datelor</h2>
+        <p>Datele dvs. sunt stocate securizat prin <strong>Firebase (Google Cloud Platform)</strong>, care respecta standardele internationale (ISO 27001, SOC 2, GDPR).</p>
+        <ul>
+            <li>Criptarea datelor in tranzit (HTTPS/TLS)</li>
+            <li>Criptarea datelor stocate in Firebase</li>
+            <li>Autentificarea securizata cu verificare email</li>
+            <li>Reguli de securitate stricte (Firestore Security Rules)</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2><span class="num">6</span> Partajarea Datelor</h2>
+        <div class="highlight">MAIAdmitere nu vinde, nu inchiriaza si nu comercializeaza datele dvs. personale.</div>
+        <p>Datele pot fi accesate doar de:</p>
+        <ul>
+            <li><strong>Google Firebase</strong> — stocare date si autentificare (cu respectarea GDPR)</li>
+        </ul>
+        <p style="margin-top:10px">Nu transmitem datele catre agentii de publicitate, parteneri comerciali sau institutii guvernamentale (cu exceptia obligatiilor legale).</p>
+    </div>
+
+    <div class="card">
+        <h2><span class="num">7</span> Clasamentul Public</h2>
+        <p>Functia de clasament afiseaza altor utilizatori: numele dvs. afisat, scorul general si ramura aleasa. Participarea este voluntara si puteti dezactiva vizibilitatea din setarile profilului.</p>
+    </div>
+
+    <div class="card">
+        <h2><span class="num">8</span> Drepturile dvs. (GDPR)</h2>
+        <p>Conform GDPR (UE 2016/679), aveti urmatoarele drepturi:</p>
+        <div class="rights-grid">
+            <div class="right-item">
+                <strong>Dreptul de acces</strong>
+                <span>Solicitati o copie a datelor dvs.</span>
+            </div>
+            <div class="right-item">
+                <strong>Dreptul la rectificare</strong>
+                <span>Corectati date incorecte</span>
+            </div>
+            <div class="right-item">
+                <strong>Dreptul la stergere</strong>
+                <span>Solicitati stergerea datelor</span>
+            </div>
+            <div class="right-item">
+                <strong>Dreptul la portabilitate</strong>
+                <span>Exportati datele dvs.</span>
+            </div>
+            <div class="right-item">
+                <strong>Dreptul de opozitie</strong>
+                <span>Obiectati la prelucrare</span>
+            </div>
+            <div class="right-item">
+                <strong>Dreptul la restrictie</strong>
+                <span>Limitati prelucrarea</span>
+            </div>
+        </div>
+        <p style="margin-top:14px">Puteti depune plangere la <strong>ANSPDCP</strong>: <a href="https://www.dataprotection.ro" target="_blank">www.dataprotection.ro</a></p>
+    </div>
+
+    <div class="card">
+        <h2><span class="num">9</span> Retentia Datelor</h2>
+        <p>Datele sunt pastrate cat timp contul dvs. este activ. La stergerea contului, datele personale vor fi eliminate in termen de <strong>30 de zile</strong>.</p>
+    </div>
+
+    <div class="card">
+        <h2><span class="num">10</span> Utilizatorii Minori</h2>
+        <p>Aplicatia MAIAdmitere este destinata tuturor persoanelor interesate de pregatirea pentru examenul MAI. Nu colectam intentionat date de la copii sub 13 ani. Utilizatorii intre 13-18 ani sunt incurajati sa utilizeze aplicatia cu acordul parintilor.</p>
+    </div>
+
+    <div class="card">
+        <h2><span class="num">11</span> Notificari Push</h2>
+        <p>Aplicatia poate trimite notificari pentru a va reaminti de sesiunile de studiu. Puteti dezactiva notificarile oricand din <strong>Setari iOS → MAIAdmitere → Notificari</strong>.</p>
+    </div>
+
+    <div class="card">
+        <h2><span class="num">12</span> Modificari ale Politicii</h2>
+        <p>Ne rezervam dreptul de a actualiza aceasta politica. Va vom notifica prin aplicatie sau email pentru modificari semnificative. Continuarea utilizarii aplicatiei constituie acceptul noii politici.</p>
+    </div>
+
+    <div class="card">
+        <h2><span class="num">13</span> Legislatia Aplicabila</h2>
+        <p>Aceasta politica este guvernata de legislatia romana si Regulamentul UE 2016/679 (GDPR). Disputele vor fi solutionate de instantele competente din Romania.</p>
+    </div>
+
+    <div class="card">
+        <h2><span class="num">14</span> Contact</h2>
+        <div class="contact-box">
+            <p>Pentru intrebari sau solicitari legate de datele dvs. personale:</p>
+            <a href="mailto:andreeamuresan200209@gmail.com">andreeamuresan200209@gmail.com</a>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    MAIAdmitere &copy; 2026 · Politica de Confidentialitate · 1 Martie 2026
+</footer>
+
+</body>
+</html>
